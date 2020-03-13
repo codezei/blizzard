@@ -1,0 +1,156 @@
+.footer-container {
+    width: 100%;
+    // height: 327px;
+    background-image: url(../images/footer-bg-base.jpg);
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 100px 0 60px 0;
+    a {
+        color: rgba(255,255,255,.7);
+        i.fa-globe-europe {
+            color: #0e86ca ;
+        }
+        transition: all 500ms;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+    }
+    a:hover {
+        color: white;
+        i.fa-globe-europe {
+            color: #00aeff ;
+        }
+        transition: all 500ms;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+        span i {
+            color:rgba(255, 255, 255, 0.8);
+        }
+}
+    .lang {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        span {
+            margin-left: 5px;
+            position: relative;
+            i {
+                position: relative;
+                font-size: 10px;
+                top: -4px;
+            }
+            i:nth-child(2) {
+                // transform: rotate(180deg);
+                // -webkit-transform: rotate(180deg);
+                // -moz-transform: rotate(180deg);
+                // -ms-transform: rotate(180deg);
+                // -o-transform: rotate(180deg);
+            top: 3px;
+            left: -10.5px;
+}
+        }
+    }
+    .lang:hover {
+        transition: all 500ms;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+    }
+    .logo {
+        margin: 15px 0;
+        img {
+            width: 124px;
+        }
+    }
+    .footer-menu {
+        margin: 15px 0;
+        ul {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            @media screen and (max-width: 768px) {
+                flex-wrap: wrap;
+            }
+            li {
+                margin: 5px 0;
+                padding: 0 10px;
+                border-right: 1px solid gray;
+                font-size: 17px;
+                text-transform: uppercase;
+                a {
+                    font-family: "open sans";
+                    font-size: 17px;
+                    @media screen and(max-width:1024px) {
+                        font-size: 15px;
+                    }
+                }
+            }
+            li:last-child {
+                border: none;
+            }
+
+        }
+
+    }
+    .copyright {
+        margin: 10px 0;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.3);
+        padding-bottom: 20px;
+        a {
+            color:#00aeff;
+        }
+        a:hover {
+            color: white;
+            transition: all 100ms;
+            -webkit-transition: all 100ms;
+            -moz-transition: all 100ms;
+            -ms-transition: all 100ms;
+            -o-transition: all 100ms;
+}
+        .copyright-menu {
+            font-family: "open sans";
+            font-size: 13px;
+            ul {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                @media screen and (max-width: 768px) {
+                    flex-wrap: wrap;
+                }
+                li {
+                    color: rgba(255, 255, 255, 0.7);
+                    margin: 5px 0;
+                    padding: 0 10px;
+                    border-right: 1px solid gray;
+                    text-transform: uppercase;
+                }
+                li:last-child {
+                    border: none;
+                }
+                a {
+                    color: rgba(255,255,255,.7);
+
+                }
+                a:hover {
+                    color: white;
+                    transition: all 100ms;
+                    -webkit-transition: all 100ms;
+                    -moz-transition: all 100ms;
+                    -ms-transition: all 100ms;
+                    -o-transition: all 100ms;
+}
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Blizzard</title>
+	<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<script src="https://kit.fontawesome.com/cd459b0f2b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<span></span>
+	<div class="overlay-bg"></div>
+	<header>
+		<div class="menu-container">
+			<div class="content-menu">
+				<div class="menu">
+					<div class="logo">
+						<a href="#" class="logo-img"><img src="./images/logo.svg" alt=""></a>
+						<a href="#" class="mob-menu-toggle"><i class="fas fa-bars"></i> <span> Меню</span></a>
+					</div>
+					<ul class="menu_list">
+						<li><a href="#">Игры</a>
+							<div class="sub-menu">
+								<div class="trick trick-games"></div>
+								<div class="sub-menu_container">
+									<div class="content-menu">
+										<div class="blizzard">
+											<p class="sub-menu_container_title">Blizzard</p>
+											<ul class="sub-menu_container__list">
+												<li>
+													<a href="#">
+														<img src="./images/logo-ow2.png" alt="">
+														<p class="title">Overwatch®2</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-ow.png" alt="">
+														<p class="title">Overwatch®</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-wow.png" alt="">
+														<p class="title">World of Warcraft®</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/heastone_logo.png" alt="">
+														<p class="title">Hearstone®</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-heroes.png" alt="">
+														<p class="title">Heroes of the shtorm™</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-w3r.png" alt="">
+														<p class="title">Warcraft® III: Reforged™</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-d4.png" alt="">
+														<p class="title">Diablo® IV</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-di.png" alt="">
+														<p class="title">Diablo® Immortal™</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-d3.png" alt="">
+														<p class="title">Diablo® III</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/starcraft2.jpg" alt="">
+														<p class="title">Starcraft® II</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-scr.png" alt="">
+														<p class="title">Starcraft®: Remastered</p>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="activision">
+											<p class="sub-menu_container_title">Activision</p>
+											<ul class="sub-menu_container__list">
+												<li>
+													<a href="#">
+														<img src="./images/logo-codmw.png" alt="">
+														<p class="title">Call of Duty®: Modern Warfare®</p>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./images/logo-codbo.png" alt="">
+														<p class="title">Call of Duty®: Black Oops®</p>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="sub-menu_footer">
+									<ul class="sub-menu_footer__list">
+										<li><a href="#"><i class="fas fa-th"></i>Другие игры</a></li>
+										<li><a href="#"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px"><path d="M 43.113281 22.152344 C 43.113281 22.152344 47.058594 22.351563 47.058594 20.03125 C 47.058594 16.996094 41.804688 14.261719 41.804688 14.261719 C 41.804688 14.261719 42.628906 12.515625 43.140625 11.539063 C 43.65625 10.5625 45.101563 6.753906 45.230469 5.886719 C 45.394531 4.792969 45.144531 4.449219 45.144531 4.449219 C 44.789063 6.792969 40.972656 13.539063 40.671875 13.769531 C 36.949219 12.023438 31.835938 11.539063 31.835938 11.539063 C 31.835938 11.539063 26.832031 1 22.125 1 C 17.457031 1 17.480469 10.023438 17.480469 10.023438 C 17.480469 10.023438 16.160156 7.464844 14.507813 7.464844 C 12.085938 7.464844 11.292969 11.128906 11.292969 15.097656 C 6.511719 15.097656 2.492188 16.164063 2.132813 16.265625 C 1.773438 16.371094 0.644531 17.191406 1.15625 17.089844 C 2.203125 16.753906 7.113281 15.992188 11.410156 16.367188 C 11.648438 20.140625 13.851563 25.054688 13.851563 25.054688 C 13.851563 25.054688 9.128906 31.894531 9.128906 36.78125 C 9.128906 38.066406 9.6875 40.417969 13.078125 40.417969 C 15.917969 40.417969 19.105469 38.710938 19.707031 38.363281 C 19.183594 39.113281 18.796875 40.535156 18.796875 41.191406 C 18.796875 41.726563 19.113281 43.246094 21.304688 43.246094 C 24.117188 43.246094 27.257813 41.089844 27.257813 41.089844 C 27.257813 41.089844 30.222656 46.019531 32.761719 48.28125 C 33.445313 48.890625 34.097656 49 34.097656 49 C 34.097656 49 31.578125 46.574219 28.257813 40.324219 C 31.34375 38.417969 34.554688 33.921875 34.554688 33.921875 C 34.554688 33.921875 34.933594 33.933594 37.863281 33.933594 C 42.453125 33.933594 48.972656 32.96875 48.972656 29.320313 C 48.972656 25.554688 43.113281 22.152344 43.113281 22.152344 Z M 43.625 19.886719 C 43.625 21.21875 42.359375 21.199219 42.359375 21.199219 L 41.394531 21.265625 C 41.394531 21.265625 39.566406 20.304688 38.460938 19.855469 C 38.460938 19.855469 40.175781 17.207031 40.578125 16.46875 C 40.882813 16.644531 43.625 18.363281 43.625 19.886719 Z M 24.421875 6.308594 C 26.578125 6.308594 29.65625 11.402344 29.65625 11.402344 C 29.65625 11.402344 24.851563 10.972656 20.898438 13.296875 C 21.003906 9.628906 22.238281 6.308594 24.421875 6.308594 Z M 15.871094 10.4375 C 16.558594 10.4375 17.230469 11.269531 17.507813 11.976563 C 17.507813 12.445313 17.75 15.171875 17.75 15.171875 L 13.789063 15.023438 C 13.789063 11.449219 15.1875 10.4375 15.871094 10.4375 Z M 15.464844 35.246094 C 13.300781 35.246094 12.851563 34.039063 12.851563 32.953125 C 12.851563 30.496094 14.8125 27.058594 14.8125 27.058594 C 14.8125 27.058594 17.011719 31.683594 20.851563 33.636719 C 18.945313 34.753906 17.375 35.246094 15.464844 35.246094 Z M 22.492188 40.089844 C 20.972656 40.089844 20.789063 39.105469 20.789063 38.878906 C 20.789063 38.171875 21.339844 37.335938 21.339844 37.335938 C 21.339844 37.335938 23.890625 35.613281 24.054688 35.429688 L 25.9375 38.945313 C 25.9375 38.945313 24.007813 40.089844 22.492188 40.089844 Z M 27.226563 38.171875 C 26.300781 36.554688 25.621094 34.867188 25.621094 34.867188 C 25.621094 34.867188 29.414063 35.113281 31.453125 33.007813 C 30.183594 33.578125 28.15625 34.300781 25.800781 34.082031 C 30.726563 29.742188 33.601563 26.597656 36.03125 23.34375 C 35.824219 23.09375 34.710938 22.316406 34.4375 22.1875 C 32.972656 23.953125 27.265625 30.054688 21.984375 33.074219 C 15.292969 29.425781 13.890625 18.691406 13.746094 16.460938 L 17.402344 16.8125 C 17.402344 16.8125 16.027344 19.246094 16.027344 21.039063 C 16.027344 22.828125 16.242188 22.925781 16.242188 22.925781 C 16.242188 22.925781 16.195313 19.800781 18.125 17.390625 C 19.59375 25.210938 21.125 29.21875 22.320313 31.605469 C 22.925781 31.355469 24.058594 30.851563 24.058594 30.851563 C 24.058594 30.851563 20.683594 21.121094 20.871094 14.535156 C 22.402344 13.71875 24.667969 12.875 27.226563 12.875 C 33.957031 12.875 39.367188 15.773438 39.367188 15.773438 L 37.25 18.730469 C 37.25 18.730469 35.363281 15.3125 32.699219 14.703125 C 34.105469 15.753906 35.679688 17.136719 36.496094 19.128906 C 30.917969 16.949219 24.1875 15.796875 22.027344 15.542969 C 21.839844 16.339844 21.863281 17.480469 21.863281 17.480469 C 21.863281 17.480469 30.890625 19.144531 37.460938 22.90625 C 37.414063 31.125 28.460938 37.4375 27.226563 38.171875 Z M 35.777344 32.027344 C 35.777344 32.027344 38.578125 28.347656 38.535156 23.476563 C 38.535156 23.476563 43.0625 26.28125 43.0625 29.015625 C 43.0625 32.074219 35.777344 32.027344 35.777344 32.027344 Z"/></svg>Приложение Battle.net</a></li>
+										<li><a href="#"><i class="fas fa-file-download"></i>Загрузка игр</a></li>
+										<li><a href="#"><i class="far fa-comment-alt"></i>Форумы</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</li>
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Киберспорт</a>
+							<div class="sub-menu">
+								<div class="trick trick-cybersport"></div>
+								<div class="sub-menu_container">
+									<div class="cybersports">
+										<ul class="sub-menu_container__list">
+											<li>
+												<a href="#">
+													<img src="./images/esports-hsm.png" alt="">
+													<p class="title">Hearthstone Masters</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<img src="./images/esports-overwatch-world-cup.png" alt="">
+													<p class="title">Чемпионат мира по Overwatch</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<img src="./images/esports-overwatch.png" alt="">
+													<p class="title">Overwatch League</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<img src="./images/esports-sc2.png" alt="">
+													<p class="title">StarCraft II WCS</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<img src="./images/esports-wowwc.png" alt="">
+													<p class="title">World of Warcraft Arena World Championship</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="sub-menu_footer">
+									<ul class="sub-menu_footer__list">
+										<li><a href="#"><i class="fas fa-th"></i> Все соревнования</a></li>
+										<li><a href="#"><i class="fas fa-trophy"></i>Материалы</a></li>
+									</ul>
+								</div>
+
+							</div>
+						</li>
+						<li><a href="http://blizzard.com">Blizzkon</a></li>
+					</ul>
+				</div>
+
+				<div class="menu-mob">
+					<a href="#" class="close"><i class="fas fa-times"></i></a>
+					<div class="logo">
+						<a href="#"><img src="./images/logo.svg" alt=""></a>
+					</div>
+					<ul class="menu-mob_list">
+						<li class="active-menu-item"><a href="#">На главную</a></li>
+						<li><a href="#">Игры <i class="fas fa-chevron-down"></i></a>
+							<ul class="sub-menu-mob_list">
+								<p class="sub-menu-mob_title">Blizzad</p>
+								<li><a href="#"><img src="./images/logo-mobile-d3.png" alt=""><span>Diablo®
+											III</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-d4.png" alt=""><span>Diablo® IV</span></a>
+								</li>
+								<li><a href="#"><img src="./images/logo-mobile-di.png" alt=""><span>Diablo®
+											Immortal™</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-hs.png"
+											alt=""><span>Hearthstone®</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-ow.png" alt=""><span>Overwatch®</span></a>
+								</li>
+								<li><a href="#"><img src="./images/logo-mobile-ow2.png" alt=""><span>Overwatch®
+											2</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-sc2.png" alt=""><span>StarCraft®
+											II</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-scr.png" alt=""><span>StarCraft®:
+											Remastered</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile.png" alt=""><span>Heroes of the
+											Storm™</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-wow.png" alt=""><span>World of
+											Warcraft®</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-w3r.png" alt=""><span>Warcraft® III:
+											Reforged™</span></a></li>
+								<hr>
+								<p class="sub-menu-mob_title">Activision</p>
+								<li><a href="#"><img src="./images/logo-mobile-codbo4.png" alt=""><span>Call of Duty®:
+											Modern Warfare®</span></a></li>
+								<li><a href="#"><img src="./images/logo-mobile-codmw.png" alt=""><span>Call of Duty®:
+											Black Ops 4</span></a></li>
+								<hr>
+								<li><a href="#"><i class="fas fa-th"></i> <span> Другие игры</span></a></li>
+								<li><a href="#"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px" height="20px"><path d="M 43.113281 22.152344 C 43.113281 22.152344 47.058594 22.351563 47.058594 20.03125 C 47.058594 16.996094 41.804688 14.261719 41.804688 14.261719 C 41.804688 14.261719 42.628906 12.515625 43.140625 11.539063 C 43.65625 10.5625 45.101563 6.753906 45.230469 5.886719 C 45.394531 4.792969 45.144531 4.449219 45.144531 4.449219 C 44.789063 6.792969 40.972656 13.539063 40.671875 13.769531 C 36.949219 12.023438 31.835938 11.539063 31.835938 11.539063 C 31.835938 11.539063 26.832031 1 22.125 1 C 17.457031 1 17.480469 10.023438 17.480469 10.023438 C 17.480469 10.023438 16.160156 7.464844 14.507813 7.464844 C 12.085938 7.464844 11.292969 11.128906 11.292969 15.097656 C 6.511719 15.097656 2.492188 16.164063 2.132813 16.265625 C 1.773438 16.371094 0.644531 17.191406 1.15625 17.089844 C 2.203125 16.753906 7.113281 15.992188 11.410156 16.367188 C 11.648438 20.140625 13.851563 25.054688 13.851563 25.054688 C 13.851563 25.054688 9.128906 31.894531 9.128906 36.78125 C 9.128906 38.066406 9.6875 40.417969 13.078125 40.417969 C 15.917969 40.417969 19.105469 38.710938 19.707031 38.363281 C 19.183594 39.113281 18.796875 40.535156 18.796875 41.191406 C 18.796875 41.726563 19.113281 43.246094 21.304688 43.246094 C 24.117188 43.246094 27.257813 41.089844 27.257813 41.089844 C 27.257813 41.089844 30.222656 46.019531 32.761719 48.28125 C 33.445313 48.890625 34.097656 49 34.097656 49 C 34.097656 49 31.578125 46.574219 28.257813 40.324219 C 31.34375 38.417969 34.554688 33.921875 34.554688 33.921875 C 34.554688 33.921875 34.933594 33.933594 37.863281 33.933594 C 42.453125 33.933594 48.972656 32.96875 48.972656 29.320313 C 48.972656 25.554688 43.113281 22.152344 43.113281 22.152344 Z M 43.625 19.886719 C 43.625 21.21875 42.359375 21.199219 42.359375 21.199219 L 41.394531 21.265625 C 41.394531 21.265625 39.566406 20.304688 38.460938 19.855469 C 38.460938 19.855469 40.175781 17.207031 40.578125 16.46875 C 40.882813 16.644531 43.625 18.363281 43.625 19.886719 Z M 24.421875 6.308594 C 26.578125 6.308594 29.65625 11.402344 29.65625 11.402344 C 29.65625 11.402344 24.851563 10.972656 20.898438 13.296875 C 21.003906 9.628906 22.238281 6.308594 24.421875 6.308594 Z M 15.871094 10.4375 C 16.558594 10.4375 17.230469 11.269531 17.507813 11.976563 C 17.507813 12.445313 17.75 15.171875 17.75 15.171875 L 13.789063 15.023438 C 13.789063 11.449219 15.1875 10.4375 15.871094 10.4375 Z M 15.464844 35.246094 C 13.300781 35.246094 12.851563 34.039063 12.851563 32.953125 C 12.851563 30.496094 14.8125 27.058594 14.8125 27.058594 C 14.8125 27.058594 17.011719 31.683594 20.851563 33.636719 C 18.945313 34.753906 17.375 35.246094 15.464844 35.246094 Z M 22.492188 40.089844 C 20.972656 40.089844 20.789063 39.105469 20.789063 38.878906 C 20.789063 38.171875 21.339844 37.335938 21.339844 37.335938 C 21.339844 37.335938 23.890625 35.613281 24.054688 35.429688 L 25.9375 38.945313 C 25.9375 38.945313 24.007813 40.089844 22.492188 40.089844 Z M 27.226563 38.171875 C 26.300781 36.554688 25.621094 34.867188 25.621094 34.867188 C 25.621094 34.867188 29.414063 35.113281 31.453125 33.007813 C 30.183594 33.578125 28.15625 34.300781 25.800781 34.082031 C 30.726563 29.742188 33.601563 26.597656 36.03125 23.34375 C 35.824219 23.09375 34.710938 22.316406 34.4375 22.1875 C 32.972656 23.953125 27.265625 30.054688 21.984375 33.074219 C 15.292969 29.425781 13.890625 18.691406 13.746094 16.460938 L 17.402344 16.8125 C 17.402344 16.8125 16.027344 19.246094 16.027344 21.039063 C 16.027344 22.828125 16.242188 22.925781 16.242188 22.925781 C 16.242188 22.925781 16.195313 19.800781 18.125 17.390625 C 19.59375 25.210938 21.125 29.21875 22.320313 31.605469 C 22.925781 31.355469 24.058594 30.851563 24.058594 30.851563 C 24.058594 30.851563 20.683594 21.121094 20.871094 14.535156 C 22.402344 13.71875 24.667969 12.875 27.226563 12.875 C 33.957031 12.875 39.367188 15.773438 39.367188 15.773438 L 37.25 18.730469 C 37.25 18.730469 35.363281 15.3125 32.699219 14.703125 C 34.105469 15.753906 35.679688 17.136719 36.496094 19.128906 C 30.917969 16.949219 24.1875 15.796875 22.027344 15.542969 C 21.839844 16.339844 21.863281 17.480469 21.863281 17.480469 C 21.863281 17.480469 30.890625 19.144531 37.460938 22.90625 C 37.414063 31.125 28.460938 37.4375 27.226563 38.171875 Z M 35.777344 32.027344 C 35.777344 32.027344 38.578125 28.347656 38.535156 23.476563 C 38.535156 23.476563 43.0625 26.28125 43.0625 29.015625 C 43.0625 32.074219 35.777344 32.027344 35.777344 32.027344 Z"/></svg><span>Приложения Battle.net</span></a></li>
+								<li><a href="#"><i class="fas fa-file-download"></i><span>Загрузка игр</span></a></li>
+								<li><a href="#"><i class="far fa-comment-alt"></i><span>Форумы</span></a></li>
+							</ul>
+						</li>
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Киберспорт <i class="fas fa-chevron-down"></i></a>
+							<ul class="sub-menu-mob_list">
+								<p class="sub-menu-mob_title">Blizzad</p>
+								<li><a href="#"><img src="./images/esports-mobile-hsm.png" alt=""><span>Diablo®
+											III</span></a></li>
+								<li><a href="#"><img src="./images/esports-mobile-overwatch-world-cup.png"
+											alt=""><span>Diablo® IV</span></a></li>
+								<li><a href="#"><img src="./images/esports-mobile-overwatch.png" alt=""><span>Diablo®
+											Immortal™</span></a></li>
+								<li><a href="#"><img src="./images/esports-mobile-wowwc.png"
+											alt=""><span>Hearthstone®</span></a></li>
+								<li><a href="#"><img src="./images/esports-mobile-sc2.png"
+											alt=""><span>Overwatch®</span></a></li>
+								<li><a href="#"><i class="fas fa-th"></i><span>Все соревнования</span></a></li>
+								<li><a href="#"><i class="fas fa-trophy"></i><span>Материалы</span></a></li>
+							</ul>
+						</li>
+						<li><a href="#">Blizzon</a></li>
+					</ul>
+					<ul class="menu-mob_footer">
+						<li><a href="#">Поддержка</a></li>
+						<li><a href="#">Учетная запись</a></li>
+						<li><a href="#">Мои подарки</a></li>
+						<li><a href="#">Работа в Blizzard</a></li>
+						<li><a href="#">О компании</a></li>
+					</ul>
+				</div>
+				<div class="menu-profile">
+					<ul class="menu-profile_list">
+						<li><a href="#">Поддержка</a></li>
+						<li><a href="#">Моя учетная запись</a>
+							<div class="sub-menu">
+								<div class="trick trick-profile"></div>
+								<div class="enter">
+									<a href="#">Вход</a>
+								</div>
+								<div class="paramtres">
+									<a href="#"><i class="fas fa-cog"></i> Параметры</a>
+								</div>
+								<div class="create-account">
+									<a href="#"><i class="fas fa-user-plus"></i> Создать учетную запись</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a href="#"class="logo-mob"><img src="./images/logo.svg" alt=""></a>
+				<a href="#" class="mob-menu-profle-toggle"><i class="far fa-user"></i></a>
+				
+				<div class="menu-profile-mob">
+					<div class="logo">
+							<a href="#" class="close-profile"><i class="fas fa-times"></i></a>
+					</div>
+
+					<ul class="menu-mob_list">
+						<li><a href="#" class="enter"><p>Вход</p></a></li>
+						<li><a href="#"><i class="far fa-question-circle"></i> <span >Поддержка</span></a></li>
+						<li><a href="#"><i class="fas fa-cog"></i> <span> Параметры</span></a></li>
+						<li><a href="#"><i class="fas fa-user-plus"></i> <span> Создать уетную запись</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+	</header>
+
+	<main>
+		<div class="slider">
+			<div class="slides">
+				<div class="slide slide-1" data-slider="slide-1">
+					<div class="slide-img"></div>
+					<div class="overlay-slider">
+						<div class="left-overlay"></div>
+						<div class="content content-slider">
+							<div class="logo"><a href="#"><img src="./images/logo_bl-gear.png" alt=""></a></div>
+							<a href="#" class="slide_title">Скидки до 50 %<br> (до 2 декабря)</a>
+							<a href="#" class="slide_btn">В магазин</a>
+						</div>
+						<div class="right-overlay"></div>
+					</div>
+				</div>
+				<div class="slide slide-2">
+					<div class="slide-img"></div>
+					<div class="overlay-slider">
+						<div class="left-overlay"></div>
+						<div class="content content-slider">
+							<div class="logo"><a href="#"><img src="./images/logo_bl_btlnet.png" alt=""></a></div>
+							<a href="#" class="slide_title">Закупитесь<br> к праздникам </a>
+							<a href="#" class="slide_btn">В магазин</a>
+						</div>
+						<div class="right-overlay"></div>
+					</div>
+
+
+				</div>
+				<div class="slide slide-3">
+					<div class="slide-img"></div>
+					<div class="overlay-slider">
+						<div class="left-overlay"></div>
+						<div class="content content-slider">
+							<div class="logo"><a href="#"><img src="./images/logo_bl_btlnet.png" alt=""></a></div>
+							<a href="#" class="slide_title">Закупитесь<br> к праздникам </a>
+							<a href="#" class="slide_btn">В магазин</a>
+						</div>
+						<div class="right-overlay"></div>
+					</div>
+
+
+				</div>
+			</div>
+			<a href="#" class="prev"><i class="fas fa-chevron-left"></i></a>
+			<a href="#" class="next"><i class="fas fa-chevron-right"></i></a>
+			<div class="slider-scroll_container">
+				<div class="slider-scroll_item" id="slide-1"></div>
+				<div class="slider-scroll_item" id="slide-2"></div>
+				<div class="slider-scroll_item" id="slide-3"></div>
+			</div>
+		</div>
+		<div class="games-info">
+			<div class="games-info_content">
+				<div class="games-info_blizzard">
+					<p class="games-info_title">Игры Blizzard</p>
+					<ul class="games-info_list">
+						<li><a href="#"><img src="./images/logo-mobile-d3.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-d4.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-di.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-hs.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-ow.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-ow2.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-sc2.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-scr.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile.png" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="games-info_partners">
+					<p class="games-info_title">Игры партнеров</p>
+					<ul class="games-info_list">
+						<li><a href="#"><img src="./images/logo-mobile-codbo4.png" alt=""></a></li>
+						<li><a href="#"><img src="./images/logo-mobile-codmw.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="games">
+			<div class="content">
+				<div class="title-section">
+					<a href="#">Игры <i class="fas fa-angle-right"></i><span>Все игры <i class="fas fa-angle-right"></i></span></a>
+				</div>
+				<div class="sub_title-section">
+					<p class="sub_title-section">Blizzard</p>
+				</div>
+				<div class="slider-games">
+					<ul class="slider-games_list">
+						<li><img src="./images/cod.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/codmw.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/diablo.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/diablo2.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/diablo3.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/overwatch.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/overwatch2.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/wow.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/wow2.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/starcraft.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/starcraft2.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/heroes.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+						<li><img src="./images/hearsstone.jpg" alt="">
+							<div class="overlay-content"></div>
+							<div class="hover-info">
+								<div class="hover-info_nav">
+									<a href="#" class="more">Подробнее</a>
+									<a href="#" class="shop"><i class="fas fa-shopping-cart"></i> В магазин</a>
+									<a href="#" class="try"><i class="fas fa-mouse"></i> Пробная версия</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="prev"><i class="fas fa-chevron-left"></i></a>
+					<a href="#" class="next"><i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+
+		</div>
+		<div class="articles">
+			<div class="content">
+				<div class="title-section">
+					<a href="#">Популярные статьи <i class="fas fa-angle-right"></i><span>Все новости <i class="fas fa-angle-right"></i></span></a>
+				</div>
+				<ul class="articles_list">
+					<li class="item">
+						<a href="#">
+							<div class="head-bg"><img src="./images/ar1.jpg" alt=""></div>
+							<div class="main-info">
+								<p class="desc">За кулисами Blizzard</p>
+								<p class="info">Распродажа по случаю черной пятницы началась!</p>
+							</div>
+						</a>
+
+					</li>
+					<li class="item">
+						<a href="#">
+							<div class="head-bg"><img src="./images/ar2.jpg" alt=""></div>
+							<div class="main-info">
+								<p class="desc">Blizzcon</p>
+								<p class="info">Объявлен выход Overwatch2</p>
+							</div>
+						</a>
+
+					</li>
+					<li class="item">
+						<a href="#">
+							<div class="head-bg"><img src="./images/ar3.jpg" alt=""></div>
+							<div class="main-info">
+								<p class="desc">Blizzcon</p>
+								<p class="info">Выход дополнения Workd of Warcraft</p>
+							</div>
+						</a>
+
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="banner-blizzard">
+			<!-- slider items -->
+			<div class="banner-blizzard_slide item1">
+				<div class="overlay">
+					<div class="overlay-left"></div>
+					<div class="overlay-right"></div>
+				</div>
+			</div>
+			<div class="banner-blizzard_slide item2">
+				<div class="overlay">
+					<div class="overlay-left"></div>
+					<div class="overlay-right"></div>
+				</div>
+			</div>
+			<div class="banner-blizzard_slide item3">
+				<div class="overlay">
+					<div class="overlay-left"></div>
+					<div class="overlay-right"></div>
+				</div>
+			</div>
+			<div class="banner-blizzard_slide item4">
+				<div class="overlay">
+					<div class="overlay-left"></div>
+					<div class="overlay-right"></div>
+				</div>
+			</div>
+			<!-- end slider items -->
+			<div class="content">
+				<div class="banner-blizzard_info">
+					<p class="banner-blizzard_title">Создавайте миры!</p>
+					<p class="banner-blizzard_desc">Все о работе Blizzard</p>
+					<div class="p40"></div>
+					<a href="#">Вакансии</a>
+				</div>
+			</div>
+
+
+
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-container">
+			<div class="lang">
+				<a href="#"><i class="fas fa-globe-europe"></i> <span>Русский</span><span><i class="fas fa-angle-up"></i> <i class="fas fa-angle-down"></i></span> </a>
+			</div>
+			<div class="logo">
+				<a href="#"><img src="./images/logo_e.svg" alt=""></a>
+			</div>
+			<div class="footer-menu">
+				<ul>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">О компании</a> </li>
+					<li><a href="#">Поддержка</a></li>
+					<li><a href="#">Открыть запрос</a> </li>
+					<li><a href="#">Пресс-релизы</a></li>
+					<li><a href="#">API</a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				© BLIZZARD ENTERTAINMENT, 2019. ВСЕ ПРАВА ЗАЩИЩЕНЫ.<br>
+				Все упомянутые <a href="#">товарные знаки </a>являются собственностью соответствующих владельцев.
+				<div class="copyright-menu">
+					<ul>
+						<li><a href="#">Политика конфединциальности</a> </li>
+						<li><a href="#">Соглашения</a></li>
+						<li><a href="#">Соглашения</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src='js/jquery-3.4.1.min.js'></script>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+		<script src='plugins/slick.js' ></script>
+		<script src='js/script.js'></script>
+</body>
+
+</html>

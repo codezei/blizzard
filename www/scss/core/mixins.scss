@@ -1,0 +1,6 @@
+@mixin font_menu_header ($family, $size, $color, $weight) {
+    font-family: $family;
+    color: $color !important;
+    font-size: $size;
+    font-weight: $weight;
+}
